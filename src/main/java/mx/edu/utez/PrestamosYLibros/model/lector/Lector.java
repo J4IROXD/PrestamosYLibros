@@ -22,5 +22,5 @@ public class Lector {
 
     private boolean activo;
 
-    private boolean premium;
+    private boolean membresiaPremium;
 }

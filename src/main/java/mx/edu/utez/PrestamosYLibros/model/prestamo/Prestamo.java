@@ -34,7 +34,7 @@ public class Prestamo {
     private LocalDate fechaPrestamo;
 
     @Column(name = "fecha_devolucion_maxima", nullable = false)
-    private LocalDate fechaDevoluvcionMaxima;
+    private LocalDate fechaDevolucionMaxima;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
